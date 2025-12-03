@@ -1,0 +1,62 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInVertical {
+  from { transform: translateY(100px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  40% { width: 58%; }
+  60% { width: 58%; }
+  100% { width: 0; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+@keyframes rotate {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+@keyframes float-flip {
+  0% {
+    transform: translate(0, 0) rotateY(0deg);
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4));
+  }
+  25% {
+    transform: translate(6px, -10px) rotateY(90deg);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+  }
+  50% {
+    transform: translate(0, -20px) rotateY(180deg);
+    filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.8));
+  }
+  75% {
+    transform: translate(-6px, -10px) rotateY(270deg);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    transform: translate(0, 0) rotateY(360deg);
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4));
+  }
+}
+
+@keyframes shine {
+  0% { left: -150%; }
+  100% { left: 130%; }
+}
+
+@keyframes scrollLeft {
+  to { left: -200px; }
+}
